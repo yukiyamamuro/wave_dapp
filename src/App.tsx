@@ -58,14 +58,6 @@ export const App: FC = () => {
     const onNewWave = (from: any, timestamp: any, message: any) => {
       console.log("NewWave", from, timestamp, message);
       getAllWaves();
-      // setAllWaves((prevState) => [
-      //   ...prevState,
-      //   {
-      //     address: from,
-      //     timestamp: new Date(timestamp * 1000),
-      //     message,
-      //   }
-      // ]);
     };
 
     const { ethereum } = window;
