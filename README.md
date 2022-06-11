@@ -1,1 +1,6 @@
-![](public/ETH-banner-blur.png)
+# wave dapp
+
+```
+$ yarn start
+```
+
