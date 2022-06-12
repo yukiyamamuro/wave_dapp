@@ -209,6 +209,7 @@ export const App: FC = () => {
           <Card sx={{ maxWidth: 275 ,padding: 10}}>
             <Typography variant="h2" paddingBottom={3}>Welcome!</Typography>
             <Typography>メッセージと共に👋を送ってください</Typography>
+            <Typography>Rinkebyのネットワークで連携できます</Typography>
             <Box height={10} />
             <TextField
               fullWidth
